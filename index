@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weldon Ruto Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1e1e1e;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+
+        .content-box {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content-box ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #81c784;
+        }
+
+        .contact-links a {
+            margin: 0.5rem;
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 1px solid #4CAF50;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #1e1e1e;
+            width: 100%;
+        }
+
+        .highlight {
+            color: #81c784;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Weldon Ruto</h1>
+        <p>Geospatial Scientist | Professional Writer | Front-End Developer</p>
+    </header>
+
+    <div class="container">
+        <!-- Personal Details -->
+        <section class="section personal-details">
+            <h2>Personal Details</h2>
+            <div class="content-box">
+                <ul>
+                    <li><strong>Name:</strong> Weldon Ruto</li>
+                    <li><strong>Email:</strong> <a href="mailto:rutoweldon459@gmail.com">rutoweldon459@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="https://wa.me/254716918786">0716918786</a></li>
+                    <li><strong>Address:</strong> P.O BOX 62000 – 00200, Nairobi</li>
+                    <li><strong>Date of Birth:</strong> 04-07-1998</li>
+                    <li><strong>Nationality:</strong> Kenyan</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="section experience">
+            <h2>Work Experience</h2>
+            <div class="content-box">
+                <h3>Internal Attachment (2019)</h3>
+                <p><strong>Organization:</strong> Jomo Kenyatta University of Agriculture and Technology</p>
+                <ul>
+                    <li>GIS, mapping, and remote sensing software</li>
+                    <li>Handling of surveying equipment like Theodolite, GPS, and Total Station</li>
+                    <li>Proficiency in tools like ArcGIS, AutoCAD, Eagle Point, ERDAS, and SNAP</li>
+                </ul>
+            </div>
+            <div class="content-box">
+                <h3>External Attachment (2020)</h3>
+                <p><strong>Organization:</strong> Survey of Kenya, Bomet County</p>
+                <ul>
+                    <li>Land surveying, GIS, and remote sensing</li>
+                    <li>Boundary determination and digitization of form plans</li>
+                    <li>Skills in AutoCAD and Theodolite</li>
+                </ul>
+            </div>
+            <div class="content-box">
+                <h3>Professional Writer (Remote)</h3>
+                <ul>
+                    <li>Creative writing, technical writing, blog writing</li>
+                    <li>SEO strategies, social media content creation</li>
+                    <li>Research and analysis, fact-checking, trend analysis</li>
+                </ul>
+            </div>
+            <div class="content-box">
+                <h3>Front-End Developer (In-Person/Remote)</h3>
+                <ul>
+                    <li>Programming Languages: HTML5, CSS3, JavaScript, TypeScript</li>
+                    <li>Frameworks: React, Angular, Vue.js</li>
+                    <li>UI/UX Design, responsive and mobile-first development</li>
+                    <li>Tools: Git, Webpack, Chrome DevTools, Figma</li>
+                    <li>Debugging, performance optimization, cross-browser compatibility</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="section hobbies">
+            <h2>Hobbies</h2>
+            <div class="content-box">
+                <ul>
+                    <li>Playing soccer</li>
+                    <li>Exploring GIS and remote sensing technologies</li>
+                    <li>Reading novels</li>
+                    <li>Travel and adventure</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact">
+            <h2>Contact Me</h2>
+            <div class="content-box">
+                <div class="contact-links">
+                    <a href="mailto:rutoweldon459@gmail.com">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://wa.me/254716918786" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Weldon Ruto. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
